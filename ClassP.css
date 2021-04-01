@@ -1,0 +1,173 @@
+	body
+	{
+		margin:0px;
+	}
+	header
+	{
+		background:linear-gradient(45deg,orange,limegreen,blue);
+		padding:20px;
+		text-align: right;
+		color:white;
+	}
+		nav	
+		{
+			background:linear-gradient(45deg,blue,limegreen,orange);
+			padding: 0px;
+			height:50px;
+		}
+		nav a
+		{
+			color:white;
+			text-decoration: none;
+			margin:50px;
+			margin-top: 10px;
+			font-size: 24px;
+		}
+		.ar1{
+			color:black;
+		}
+		a:hover
+		{
+			text-shadow: 0px 0px 10px red;
+			font-size: 30px;	
+		}
+		.fa
+		{
+			margin:8px;
+		}
+		body
+		{
+			background-color:lightgray;
+		}
+		section article
+		{
+			margin:50px;
+			width:400px;
+			background:rgba(0,20,20,0.4);
+			box-shadow: 0 0 15px black;
+			border-radius: 20px;
+			float:left;
+			height:450px;
+			color: white;
+		}
+		section article img
+		{
+			width:inherit;
+			height: 250px;
+			border-radius: 20px 20px 0px 0px;
+		}
+		p
+		{
+			padding:10px;
+			font-size: 20px;
+			text-align: justify;
+		}
+		.sec
+		{
+			width:1400px;
+			height:500px;
+			background:linear-gradient(45deg,red,black,orange);
+		}
+		.sec h2
+		{
+			text-align: center;
+		}
+		.head2
+		{
+			border-radius: 20px 20px 0px 0px;
+			background: linear-gradient(45deg,yellow,grey,aqua)
+		}
+		figure
+		{
+			width:400px;
+			margin : 40px auto 0px;
+			border-radius: 25px;
+			border:5px solid orange;
+			overflow:hidden;
+			height:245px;
+		}
+		figure .img1
+		{
+			border-radius: 20px;
+			height:250px;
+			transition: all 2s linear;
+		}
+			
+		figure:hover .img1
+		{
+			transform: scale(1.4,1.4);
+		}
+		.images
+		{
+			width:300px;
+			float:left;
+			margin:32px;
+			height:300px;
+			transition: all 2s;
+			transform: rotate(360deg);
+		}
+		.images img
+		{
+			width:inherit;
+			height:inherit;
+		}
+		form
+		{
+			width:500px;
+			margin:100px auto;
+		}
+		fieldset
+		{
+			background-color: royalblue;
+			border-radius: 20px
+		}
+		fieldset legend
+		{
+			background-color: aqua;
+			border-radius: 10px 0px;
+			border:2px solid red;
+		}
+		input[type="text"],input[type="password"],input[type="number"]
+		{
+			margin: 10px 20px;
+			width:200px;
+			height:20px;
+			outline:none;
+		}
+		label
+		{
+			color:white;
+			font-size: 20px;
+		}
+		input[type="submit"]
+		{
+			outline:none;
+			width:100px;
+			margin-top: 20px;
+			margin-left: 100%;
+		}
+		#about h1
+		{
+			margin-top: 0px;
+		}
+		.staff
+		{
+			text-indent: 10%;
+		}
+		.about
+		{
+			padding:20px;
+			text-indent: 10%;
+			margin:20px;
+		}
+		div section article
+		{
+			width:95%;
+			margin-right:20px;
+			height:400px;
+			text-align: justify;
+		}
+		div section article h1
+		{
+			color:blue;
+		}
